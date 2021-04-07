@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Profile - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
+    <link rel="stylesheet" href="assets/css/Projects-Clean.css">
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><a class="navbar-brand" href="beranda_admin.html" style="font-weight: bold;font-size: 19px;">SISTEM PERPUSTAKAAN</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                  
+                    <li class="nav-item">
+                    <li class="nav-item dropdown "><a class="dropdown-toggle nav-link" aria-expanded="true" data-bs-toggle="dropdown" href="#" style="font-size: 21px;margin-left: 100px;"><i class="fa fa-plus"></i>&nbsp; Tambah</a>
+                        <div class="dropdown-menu "><a class="dropdown-item" href="tambah_pinjaman.html" style="font-size: 16px;"><i class="fa fa-inbox"></i>&nbsp; &nbsp;Tambah Peminjaman</a><a class="dropdown-item" href="tambah_pengembalian.html" style="font-size: 16px;"><i class="fa fa-bookmark"></i>&nbsp; &nbsp; Tambah Pengembalian</a><a class="dropdown-item" href="tambah_buku.html" style="font-size: 16px;"><i class="fa fa-book"></i>&nbsp; &nbsp; Tambah Buku</a></div>
+                    </li>
+                </li>
+                    <li class="nav-item dropdown "><a class="dropdown-toggle nav-link" aria-expanded="true" data-bs-toggle="dropdown" href="#" style="font-size: 21px;margin-left: 20px;"><i class="fa fa-database"></i>&nbsp; Data Perpustakaan</a>
+                        <div class="dropdown-menu "><a class="dropdown-item" href="dataPinjamAktif.html" style="font-size: 16px;"><i class="fa fa-clock-o"></i>&nbsp; Data Peminjam Aktif</a><a class="dropdown-item" href="dataPengembalian.html" style="font-size: 16px;"><i class="fa fa-list-alt"></i>&nbsp; Data Pengembalian</a><a class="dropdown-item" href="dataBuku.html" style="font-size: 16px;"><i class="fa fa-book"></i>&nbsp; Data Buku</a></div>
+                    </li>
+                </ul><a href="login.html"><button class="btn btn-primary" type="button" style="margin-left: 12px;">LOG OUT</button></a>
+            </div>
+        </div>
+    </nav>
+    <div class="row register-form" style="background: #6485a3;">
+        <div class="col-md-8 offset-md-2">
+            <form class="custom-form">
+                <h1 style="text-align: left;font-size: 27px;margin-left: -5px;">TAMBAH PINJAMAN</h1>
+                <div class="row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field">ID Buku</label></div>
+                    <div class="col-sm-6 input-column"><input class="form-control" type="text" required=""></div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="pawssword-input-field">ID Siswa</label></div>
+                    <div class="col-sm-6 input-column"><input class="form-control" type="text" required=""></div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="repeat-pawssword-input-field">Tgl Pinjam</label></div>
+                    <div class="col-sm-6 input-column"><input class="form-control" type="date" required=""></div>
+                </div><a href="dataPinjamAktif.html"><button class="btn btn-light submit-button" type="button" style="color: rgb(255, 255, 255);background: rgb(44,156,241);font-size: 24px;">SIMPAN</button></a>
+            </form>
+        </div>
+    </div>
+    <footer class="footer-basic">
+        <p class="copyright">STIKOM PGRI © 2021</p>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
